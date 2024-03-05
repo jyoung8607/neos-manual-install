@@ -4,11 +4,11 @@ Stuck here? You're not alone.
 
 ![Screenshot](neos-installer-stuck.jpg)
 
-This repo contains a downloadable, executable script that bypasses NEOS Setup to install openpilot. This appears to be necessary as of late February 2024. This script is made specifically for NEOS devices (EON, comma two). This is NOT designed or needed for AGNOS devices such as comma three or threex.
+This repo contains a downloadable, executable script that bypasses NEOS Setup to install openpilot. This appears to be necessary as of late February 2024; the reason is not yet understood. This script is made specifically for NEOS devices (EON, comma two). This is NOT designed or needed for AGNOS devices such as comma three or threex.
 
 # Basic usage
 
-Re-installing stock openpilot 0.8.13.1.
+Installing stock openpilot 0.8.13.1.
 
 1. Connect to Wi-Fi normally.
 2. When connected, go to More Options.
