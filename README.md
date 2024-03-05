@@ -1,10 +1,10 @@
 # neos-manual-install
 
-Stuck here?
+Stuck here? You're not alone.
 
 ![Screenshot](neos-installer-stuck.jpg)
 
-Work around an issue with NEOS Setup no longer seeing Internet available as of late February 2024. This script is made specifically for NEOS devices (EON, comma two). This is NOT designed or needed for AGNOS devices such as comma three or threex.
+This repo contains a downloadable, executable script that bypasses NEOS Setup to install openpilot. This appears to be necessary as of late February 2024. This script is made specifically for NEOS devices (EON, comma two). This is NOT designed or needed for AGNOS devices such as comma three or threex.
 
 # Basic usage
 
