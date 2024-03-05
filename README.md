@@ -16,7 +16,7 @@ Re-installing stock openpilot 0.8.13.1.
 4. Scroll down and note the IPv4 address, will look like "192.168.202.191".
 5. Download the [default/setup SSH key](https://github.com/commaai/openpilot/blob/master/tools/ssh/id_rsa). SSH is always enabled with this key while in NEOS Setup.
 6. Connect to that IP using SSH, or use [Openpilot Toolkit](https://github.com/spektor56/OpenpilotToolkit). 
-7. Paste the following command into your SSH session: `curl -Ls https://tinyurl.com/bdhse3xn | bash -e`
+7. Paste this command into your SSH session: `curl -Ls https://tinyurl.com/bdhse3xn | bash -e`
 
 # Advanced usage
 
