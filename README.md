@@ -6,7 +6,7 @@ Stuck here? You're not alone.
 
 This repo contains a downloadable, executable script that bypasses NEOS Setup to install openpilot. This appears to be necessary as of late February 2024; the reason is not yet understood. This script is made specifically for NEOS devices (EON, comma two). This is NOT designed or needed for AGNOS devices such as comma three or threex.
 
-# Basic usage
+# Basic Usage
 
 Installing stock openpilot 0.8.13.1.
 
@@ -18,10 +18,10 @@ Installing stock openpilot 0.8.13.1.
 6. Connect to that IP using SSH, or use [Openpilot Toolkit](https://github.com/spektor56/OpenpilotToolkit). 
 7. Paste this command into your SSH session: `curl -Ls https://tinyurl.com/bdhse3xn | bash -s`
 
-# Advanced usage
+# Advanced Usage (Installing a Custom Fork)
 
 Let's be honest, we're here because you were tempted to uninstall openpilot and try some other random fork!
-The installer script above will accept two optional parameters, a GitHub repository owner and a branch name. This mirrors the format used by comma's install generator.
+The installer script in Step 7 above will accept two optional parameters, a GitHub repository owner and a branch name. This mirrors the format used by comma's install generator.
 
 Where you would normally use the install URL: `https://installer.comma.ai/commaai/release2`
 
