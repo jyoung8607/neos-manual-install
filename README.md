@@ -14,9 +14,11 @@ Installing stock openpilot 0.8.13.1.
 2. When connected, go to More Options.
 3. Touch the triple-dot icon in the upper right corner, select Advanced.
 4. Scroll down and note the IPv4 address, will look like "192.168.202.191".
-5. Download the [default/setup SSH key](https://github.com/commaai/openpilot/blob/master/tools/ssh/id_rsa). SSH is always enabled with this key while in NEOS Setup.
-6. Connect to that IP using SSH, or use [Openpilot Toolkit](https://github.com/spektor56/OpenpilotToolkit). 
-7. Paste this command into your SSH session: `curl -Ls https://tinyurl.com/bdhse3xn | bash -s`
+5. Download and save the [NEOS default/setup SSH key](https://raw.githubusercontent.com/commaai/openpilot/master/tools/ssh/id_rsa) to your machine as "id_rsa".
+    * This is different from any GitHub SSH key you may have.
+6. Connect to your EON/C2 using that key: `ssh -i [pathname of your saved id_rsa] comma@[your-c2-ip-address-here]`
+    * Your browser may have saved the id_rsa file as "id_rsa.txt" or "id_rsa.pem"
+7. Once connected, paste this command into your SSH session: `curl -Ls https://tinyurl.com/bdhse3xn | bash -s`
 
 # Advanced Usage (Installing a Custom Fork)
 
