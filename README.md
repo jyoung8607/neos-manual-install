@@ -26,6 +26,6 @@ Installing stock openpilot 0.8.13.1.
 Let's be honest, we're here because you were tempted to uninstall openpilot and try some other random fork!
 The installer script in Step 7 above will accept two optional parameters, a GitHub repository owner and a branch name. This mirrors the format used by comma's install generator.
 
-Where you would normally use the install URL: `https://installer.comma.ai/commaai/release2`
+For a custom install URL such as: `installer.comma.ai/ErichMoraga/813`
 
-Use this command instead: `curl -Ls https://tinyurl.com/bdhse3xn | bash -s commaai release2`
+Instead use this command: `curl -Ls https://tinyurl.com/bdhse3xn | bash -s ErichMoraga 813`
