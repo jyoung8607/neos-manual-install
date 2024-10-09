@@ -19,7 +19,9 @@ Installing stock openpilot 0.8.13.1.
 6. Connect to your EON/C2 using that key.
     * Command line: `ssh -i [pathname of saved id_rsa] comma@[your-c2-ip-address]`
     * Your browser may have saved the id_rsa file as "id_rsa.txt" or "id_rsa.pem"
-    * If you get a "bad permissions" error, `chmod 600 [pathname of saved id_rsa]` and try again
+    * If you get a "bad permissions" error, fix permissions and try again:
+        * Linux/WSL: `chmod 600 [pathname of saved id_rsa]`
+        * Windows: Right-click on `id_rsa`, Properties, Security tab, remove the "Everyone" group if present
 7. Once connected, paste this command into your SSH session: `curl -Ls https://tinyurl.com/bdhse3xn | bash -s`
 
 # Advanced Usage (Installing a Custom Fork)
