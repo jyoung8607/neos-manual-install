@@ -16,8 +16,10 @@ Installing stock openpilot 0.8.13.1.
 4. Scroll down and note the IPv4 address, will look like "192.168.202.191".
 5. Download and save the [NEOS default/setup SSH key](https://raw.githubusercontent.com/commaai/openpilot/master/system/hardware/tici/id_rsa) to your machine as "id_rsa".
     * This is different from any GitHub SSH key you may have.
-6. Connect to your EON/C2 using that key.
-    * Command line: `ssh -i [pathname of saved id_rsa] comma@[your-c2-ip-address]`
+    * You may need to right-click and choose "Save link as..."
+6. Connect to your EON/C2 with SSH, using that key to authenticate.
+    * No idea what SSH is? Watch [this video](https://www.youtube.com/watch?v=JHYbu50_uNE).
+    * At a command line: `ssh -i [pathname of saved id_rsa] comma@[your-c2-ip-address]`
     * Your browser may have saved the id_rsa file as "id_rsa.txt" or "id_rsa.pem"
     * If you get a "bad permissions" error, fix permissions and try again:
         * Linux/WSL: `chmod 600 [pathname of saved id_rsa]`
