@@ -1,37 +1,44 @@
-# neos-manual-install
+# C2 NEOS Alternate Fix Install
 
-Stuck here? You're not alone.
+Stuck on the NEOS setup screen? You're not alone.
 
 ![Screenshot](neos-installer-stuck.jpg)
 
-This repo contains a downloadable, executable script that bypasses NEOS Setup to install openpilot. This appears to be necessary as of late February 2024; the reason is not yet understood. This script is made specifically for NEOS devices (EON, comma two). This is NOT designed or needed for AGNOS devices such as comma three or threex.
+This repository provides a simple, all-in-one tool to bypass the NEOS Setup screen and install openpilot on your comma two or EON. This is NOT designed or needed for AGNOS devices like the comma three.
 
-# Basic Usage
+## Usage
 
-Installing stock openpilot 0.8.13.1.
+This method uses a simple application that you run on your Windows computer. It handles everything for you.
 
-1. Connect to Wi-Fi normally.
-2. When connected, go to More Options.
-3. Touch the triple-dot icon in the upper right corner, select Advanced.
-4. Scroll down and note the IPv4 address, will look like "192.168.202.191".
-5. Download and save the [NEOS default/setup SSH key](https://raw.githubusercontent.com/commaai/openpilot/master/system/hardware/tici/id_rsa) to your machine as "id_rsa".
-    * This is different from any GitHub SSH key you may have.
-    * You may need to right-click and choose "Save link as..."
-6. Connect to your EON/C2 with SSH, using that key to authenticate.
-    * No idea what SSH is? Watch [this video](https://www.youtube.com/watch?v=JHYbu50_uNE).
-    * At a command line: `ssh -i [pathname of saved id_rsa] comma@[your-c2-ip-address]`
-    * Your browser may have saved the id_rsa file as "id_rsa.txt" or "id_rsa.pem"
-    * If you get a "bad permissions" error, fix permissions and try again:
-        * Linux/WSL: `chmod 600 [pathname of saved id_rsa]`
-        * Windows: Right-click on `id_rsa`, Properties, Security tab, remove the "Everyone" group if present
-7. Once connected, paste this command into your SSH session.
-    * `curl -Ls https://tinyurl.com/bdhse3xn | bash -s`
+1.  **Download the Installer**
+    *   [**Click here to download `neos-manual-install.exe`**](https://github.com/ophwug/c2-neos-alt-fix-install/releases/latest/download/neos-manual-install.exe)
+    *   Save the file to a convenient location, like your Downloads folder.
 
-# Advanced Usage (Installing a Custom Fork)
+2.  **Connect to Wi-Fi**
+    *   On your comma device, connect to your Wi-Fi network normally.
 
-Let's be honest, we're here because you were tempted to uninstall openpilot and try some other random fork!
-The installer script in Step 7 above will accept two optional parameters, a GitHub repository owner and a branch name. This mirrors the format used by comma's install generator.
+3.  **Find Your Device's IP Address**
+    *   On the device, go to **More Options**.
+    *   Touch the triple-dot icon in the upper right corner and select **Advanced**.
+    *   Scroll down and note the **IPv4 address**. It will look like `192.168.x.x`.
 
-For a custom install URL such as: `installer.comma.ai/ErichMoraga/813`
+4.  **Run the Installer**
+    *   Find the `neos-manual-install.exe` file you downloaded.
+    *   **Double-click** the file to run it.
+    *   The application will open a window and guide you through the rest of the process. It will ask for the IP address you noted earlier and whether you want to install a custom fork.
+    *   When the process is finished, the window will stay open until you press the Enter key.
 
-Instead use this command: `curl -Ls https://tinyurl.com/bdhse3xn | bash -s ErichMoraga 813`
+## For Developers
+
+If you want to build the application yourself:
+
+1.  Clone this repository.
+2.  Make sure you have Go installed (version 1.22 or later).
+3.  Run `make` to build the executable.
+
+The build process is automated via GitHub Actions. Every push to the `main` branch will trigger a new build and update the "Latest Build" release.
+
+
+## Credits
+
+This project is a Go-based evolution of the original shell script installer created by [jyoung8607](https://github.com/jyoung8607). A big thank you for the original work and inspiration!

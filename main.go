@@ -55,8 +55,10 @@ func main() {
 
 	if err := runSetup(client, githubOwner, githubBranch); err != nil {
 		fmt.Printf("An error occurred during setup: %v\n", err)
-		return
+	} else {
+		fmt.Println("Installation script finished successfully.")
 	}
 
-	fmt.Println("Installation script finished.")
+	fmt.Println("\nPress Enter to exit.")
+	reader.ReadString('\n')
 }
