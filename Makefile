@@ -9,7 +9,7 @@ all: build
 # Build the Go application for Windows
 build:
 	@echo "Building for Windows..."
-	GOOS=windows GOARCH=amd64 go build -o $(BINARY_NAME) .
+	GOOS=windows GOARCH=amd64 go build -o $(BINARY_NAME) ./cmd/installer
 
 # Clean up the build artifacts
 clean:
