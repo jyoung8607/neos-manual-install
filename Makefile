@@ -1,7 +1,7 @@
 # Makefile for the NEOS Manual Install Go application
 
 # The name of the output binary
-BINARY_NAME=neos-manual-install.exe
+BINARY_NAME=c2-neos-alt-fix-install.exe
 
 # Default target executed when you run `make`
 all: build

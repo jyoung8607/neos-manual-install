@@ -11,7 +11,7 @@ This repository provides a simple, all-in-one tool to bypass the NEOS Setup scre
 This method uses a simple application that you run on your Windows computer. It handles everything for you.
 
 1.  **Download the Installer**
-    *   [**Click here to download `neos-manual-install.exe`**](https://github.com/ophwug/c2-neos-alt-fix-install/releases/latest/download/neos-manual-install.exe)
+    *   [**Click here to download `c2-neos-alt-fix-install.exe`**](https://github.com/ophwug/c2-neos-alt-fix-install/releases/latest/download/c2-neos-alt-fix-install.exe)
     *   Save the file to a convenient location, like your Downloads folder.
 
 2.  **Connect to Wi-Fi**
@@ -23,7 +23,7 @@ This method uses a simple application that you run on your Windows computer. It 
     *   Scroll down and note the **IPv4 address**. It will look like `192.168.x.x`.
 
 4.  **Run the Installer**
-    *   Find the `neos-manual-install.exe` file you downloaded.
+    *   Find the `c2-neos-alt-fix-install.exe` file you downloaded.
     *   **Double-click** the file to run it.
     *   The application will open a window and guide you through the rest of the process. It will ask for the IP address you noted earlier and whether you want to install a custom fork.
     *   When the process is finished, the window will stay open until you press the Enter key.
