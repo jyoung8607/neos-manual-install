@@ -10,12 +10,13 @@ import (
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 
-	fmt.Println("Welcome to the NEOS openpilot installer.")
-	fmt.Println("This tool will guide you through installing openpilot on your comma device.")
+	fmt.Println("Welcome to the NEOS Manual Install Helper for the comma two.")
+	fmt.Println("This tool provides a workaround to bypass the NEOS setup screen.")
 	fmt.Println("-----------------------------------------------------------------------")
-	fmt.Println("First, please ensure your device is connected to Wi-Fi.")
+	fmt.Println("First, ensure your comma two is on the same Wi-Fi network as this computer.")
 	fmt.Println("On your device, go to Settings -> Wi-Fi -> More Options -> Advanced.")
-	fmt.Println("You will find the IPv4 address there (e.g., 192.168.1.100).")
+	fmt.Println("You will find the IPv4 address there.")
+	fmt.Println("It will likely start with 192.168.x.x, 10.x.x.x, or 172.16.x.x.")
 	fmt.Println("-----------------------------------------------------------------------")
 
 	fmt.Print("Enter the device IP address: ")

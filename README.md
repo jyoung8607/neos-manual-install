@@ -4,7 +4,7 @@ Stuck on the NEOS setup screen? You're not alone.
 
 ![Screenshot](neos-installer-stuck.jpg)
 
-This repository provides a simple, all-in-one tool to bypass the NEOS Setup screen and install openpilot on your comma two or EON. This is NOT designed or needed for AGNOS devices like the comma three.
+This repository provides a simple, all-in-one tool to bypass the NEOS Setup screen and install openpilot on a **comma two** or a comma two clone device (like EON). This is **NOT** designed or needed for AGNOS devices such as the comma three.
 
 ## Usage
 
@@ -13,12 +13,12 @@ This tool can be run on Windows, macOS, or Linux.
 ### Prerequisites
 
 1.  **Connect to Wi-Fi**
-    *   On your comma device, connect to your Wi-Fi network normally.
+    *   On your comma two, connect to the **same Wi-Fi network** as the computer you are using to run this tool.
 
 2.  **Find Your Device's IP Address**
     *   On the device, go to **More Options**.
     *   Touch the triple-dot icon in the upper right corner and select **Advanced**.
-    *   Scroll down and note the **IPv4 address**. It will look like `192.168.x.x`.
+    *   Scroll down and note the **IPv4 address**. It will likely start with `192.168.x.x`, `10.x.x.x`, or `172.16.x.x`.
 
 ### Windows Instructions
 
