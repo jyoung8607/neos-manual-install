@@ -28,7 +28,9 @@ jobs:
           tag_name: latest
           name: Latest Build
           body: "This is the latest automated build of the NEOS Manual Install tool."
-          files: c2-neos-alt-fix-install.exe
+          files: |
+            c2-neos-alt-fix-install.exe
+            c2-neos-alt-fix-install-darwin
           make_latest: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
