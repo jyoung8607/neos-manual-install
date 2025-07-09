@@ -60,6 +60,5 @@ func main() {
 		fmt.Println("Installation script finished successfully.")
 	}
 
-	fmt.Println("\nPress Enter to exit.")
-	reader.ReadString('\n')
+	waitForExit()
 }
