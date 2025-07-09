@@ -6,7 +6,7 @@ Stuck on the NEOS setup screen? You're not alone.
 
 ![Screenshot](neos-installer-stuck.jpg)
 
-This repository provides a simple, all-in-one tool to bypass the NEOS Setup screen and install openpilot on a **comma two** or a comma two clone device (like EON). This is **NOT** designed or needed for AGNOS devices such as the comma three.
+This repository provides a simple, all-in-one tool to bypass the NEOS Setup screen and install openpilot on a **comma two**, **EON**, or a comma two clone device. This is **NOT** designed or needed for AGNOS devices such as the comma three.
 
 ## Usage
 
