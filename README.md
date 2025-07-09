@@ -2,6 +2,8 @@
 
 Stuck on the NEOS setup screen? You're not alone.
 
+> The network "xxxx" is not connected to the internet.
+
 ![Screenshot](neos-installer-stuck.jpg)
 
 This repository provides a simple, all-in-one tool to bypass the NEOS Setup screen and install openpilot on a **comma two** or a comma two clone device (like EON). This is **NOT** designed or needed for AGNOS devices such as the comma three.
