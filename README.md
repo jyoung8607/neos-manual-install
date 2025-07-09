@@ -31,7 +31,7 @@ This tool can be run on Windows, macOS, or Linux.
 2.  **Run the Installer**
     *   Find the `c2-neos-alt-fix-install.exe` file you downloaded.
     *   **Double-click** the file to run it.
-    *   The application will open a window and guide you through the rest of the process.
+    *   The application will open a command prompt-like window and guide you through the rest of the process.
     *   When the process is finished, the window will stay open until you press the Enter key.
 
 ### macOS Instructions
