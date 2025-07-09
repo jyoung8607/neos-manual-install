@@ -66,4 +66,4 @@ The build process is automated via GitHub Actions. Every push to the `main` bran
 
 ## Credits
 
-This project is a Go-based evolution of the original shell script installer created by [jyoung8607](https://github.com/jyoung8607). A big thank you for the original work and inspiration!
+This project is a Go-based evolution of the original shell script installer created by [jyoung8607](https://github.com/jyoung8607/neos-manual-install). A big thank you for the original work and inspiration!
