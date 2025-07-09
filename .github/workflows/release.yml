@@ -31,6 +31,7 @@ jobs:
           files: |
             c2-neos-alt-fix-install.exe
             c2-neos-alt-fix-install-darwin
+            c2-neos-alt-fix-install-linux
           make_latest: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -8,7 +8,7 @@ This repository provides a simple, all-in-one tool to bypass the NEOS Setup scre
 
 ## Usage
 
-This tool can be run on Windows or macOS.
+This tool can be run on Windows, macOS, or Linux.
 
 ### Prerequisites
 
@@ -42,13 +42,23 @@ This tool can be run on Windows or macOS.
         ```
     *   The application will then guide you through the rest of the process.
 
+### Linux Instructions
+
+1.  **Run the Installer**
+    *   Open a **Terminal** on your Linux distribution.
+    *   Copy and paste the following command into the Terminal and press Enter. This will download, make executable, and run the installer in one step.
+        ```bash
+        curl -L https://github.com/ophwug/c2-neos-alt-fix-install/releases/latest/download/c2-neos-alt-fix-install-linux -o c2-neos-alt-fix-install-linux && chmod +x c2-neos-alt-fix-install-linux && ./c2-neos-alt-fix-install-linux
+        ```
+    *   The application will then guide you through the rest of the process.
+
 ## For Developers
 
 If you want to build the application yourself:
 
 1.  Clone this repository.
 2.  Make sure you have Go installed (version 1.22 or later).
-3.  Run `make` to build both the Windows and macOS executables.
+3.  Run `make` to build the Windows, macOS, and Linux executables.
 
 The build process is automated via GitHub Actions. Every push to the `main` branch will trigger a new build and update the "Latest Build" release.
 
