@@ -24,6 +24,14 @@ This tool can be run on Windows, macOS, or Linux.
     *   Touch the triple-dot icon in the upper right corner and select **Advanced**.
     *   Scroll down and note the **IPv4 address**. It will likely start with `192.168.x.x`, `10.x.x.x`, or `172.16.x.x`.
 
+### Fork Selection
+
+Upon running the installer, you will be prompted to select a fork of openpilot to install. You can choose from a list of preset forks or opt to install a custom fork by providing the GitHub owner and branch name.
+
+The available preset forks are:
+- **Stock**: The official comma.ai release.
+- **Dragonpilot**: A community-maintained fork with additional features.
+
 ### Windows Instructions
 
 1.  **Download the Installer**
