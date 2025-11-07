@@ -3,7 +3,7 @@
 > [!NOTE]
 > This tool may have issues installing NEOS as OS update images are no longer hosted by comma.
 >
-> You may want to look into [ophwug/c2-neos-alt-fix-install](https://github.com/ophwug/c2-neos-alt-fix-install), a tool that is inspired by this repo which works around that issue and may be easier to run.
+> You may want to look into [ophwug/c2-neos-alt-fix-install](https://github.com/ophwug/c2-neos-alt-fix-install), a tool that is inspired by this repo, which works around that issue and may be easier to run.
 
 Stuck here? You're not alone.
 
