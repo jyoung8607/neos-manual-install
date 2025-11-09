@@ -1,4 +1,12 @@
-# neos-manual-install
+# neos-manual-install (archived)
+
+> [!NOTE]
+>
+> This toolkit has issues installing NEOS on most comma two openpilot forks as OS update images are no longer hosted by comma.
+>
+> Please look into [ophwug/c2-neos-alt-fix-install](https://github.com/ophwug/c2-neos-alt-fix-install), a tool that is heavily inspired by this tool's implementation, which works around that issue with a post-install patch and is much easier to run, particularly for Windows users.
+>
+> This repo and the README below is kept around for historical and archival purposes. Please use it for reference only and if you have issues or improvements on the workaround, contribute to [ophwug/c2-neos-alt-fix-install](https://github.com/ophwug/c2-neos-alt-fix-install) instead.
 
 Stuck here? You're not alone.
 
